@@ -1,0 +1,147 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging D:\Masters Lectures\Spark-kCore\target\scala-2.10\kcore_2.10-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Truss.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\Truss.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KCore$$anonfun$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KCore$$anonfun$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KCore$$anonfun$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KCore$$anonfun$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EdgeLocalTriangle$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EdgeLocalTriangle$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KCore$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KCore$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EdgeLocalTriangle$$anonfun$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EdgeLocalTriangle$$anonfun$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils$EdgeType$$anonfun$orderingByPivot$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\Utils$EdgeType$$anonfun$orderingByPivot$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnumerateTriangle$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EnumerateTriangle$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$$anonfun$2$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$$anonfun$2$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils$EdgePartitioner.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\Utils$EdgePartitioner.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EdgeLocalTriangle$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EdgeLocalTriangle$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnumerateTriangle$$anonfun$7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EnumerateTriangle$$anonfun$7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\Utils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnumerateTriangle$$anonfun$7$$anonfun$apply$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EnumerateTriangle$$anonfun$7$$anonfun$apply$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KCore$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KCore$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Edge.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\Edge.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EdgeLocalTriangle$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EdgeLocalTriangle$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$$anonfun$main$1$$anonfun$7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$$anonfun$main$1$$anonfun$7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KCore$$anonfun$vprog$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KCore$$anonfun$vprog$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils$EdgePartitioner$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\Utils$EdgePartitioner$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$$anonfun$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$$anonfun$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$$anonfun$4$$anonfun$apply$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$$anonfun$4$$anonfun$apply$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$$anonfun$main$1$$anonfun$8$$anonfun$apply$8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$$anonfun$main$1$$anonfun$8$$anonfun$apply$8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnumerateTriangle$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EnumerateTriangle$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnumerateTriangle$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EnumerateTriangle$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnumerateTriangle.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EnumerateTriangle.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EdgeLocalTriangle$$anonfun$3$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EdgeLocalTriangle$$anonfun$3$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Index$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\Index$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EdgeLocalTriangle.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EdgeLocalTriangle.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KCore$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KCore$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils$EdgeType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\Utils$EdgeType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$$anonfun$4$$anonfun$apply$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$$anonfun$4$$anonfun$apply$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KCore$$anonfun$vprog$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KCore$$anonfun$vprog$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$$anonfun$main$1$$anonfun$7$$anonfun$apply$7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$$anonfun$main$1$$anonfun$7$$anonfun$apply$7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnumerateTriangle$$anonfun$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EnumerateTriangle$$anonfun$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnumerateTriangle$$anonfun$main$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EnumerateTriangle$$anonfun$main$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KCore$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KCore$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$$anonfun$main$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$$anonfun$main$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$$anonfun$4$$anonfun$apply$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$$anonfun$4$$anonfun$apply$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$$anonfun$main$1$$anonfun$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$$anonfun$main$1$$anonfun$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnumerateTriangle$$anonfun$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EnumerateTriangle$$anonfun$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$$anonfun$4$$anonfun$apply$4$$anonfun$apply$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$$anonfun$4$$anonfun$apply$4$$anonfun$apply$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ListOwner.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\ListOwner.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$$anonfun$main$1$$anonfun$8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$$anonfun$main$1$$anonfun$8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KCore$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KCore$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EdgeLocalTriangle$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EdgeLocalTriangle$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KCore.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KCore.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnumerateTriangle$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EnumerateTriangle$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\Utils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils$EdgeType$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\Utils$EdgeType$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KCore$$anonfun$2$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KCore$$anonfun$2$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Truss$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\Truss$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnumerateTriangle$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EnumerateTriangle$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EdgeLocalTriangle$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EdgeLocalTriangle$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$$anonfun$main$1$$anonfun$9.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$$anonfun$main$1$$anonfun$9.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnumerateTriangle$$anonfun$7$$anonfun$apply$2$$anonfun$apply$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EnumerateTriangle$$anonfun$7$$anonfun$apply$2$$anonfun$apply$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KCore$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KCore$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Edge$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\Edge$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnumerateTriangle$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EnumerateTriangle$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$$anonfun$4$$anonfun$apply$4$$anonfun$apply$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$$anonfun$4$$anonfun$apply$4$$anonfun$apply$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Index.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\Index.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnumerateTriangle$$anonfun$2$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EnumerateTriangle$$anonfun$2$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EdgeLocalTriangle$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\EdgeLocalTriangle$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KTruss$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\KTruss$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ListOwner$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Masters Lectures\Spark-kCore\target\scala-2.10\classes\ListOwner$.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
