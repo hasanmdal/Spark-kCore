@@ -64,7 +64,13 @@ object KCore {
         ygraph.unpersist()
         val minGraph = mgraph.pregel(initialMsg,maxIter,EdgeDirection.Either)(vprog,sendMsg,mergeMsg)
 
-        println(minGraph.vertices.map(_._2._1).max)
+        val kmax=minGraph.vertices.map(_._2._1).max
+        val pruned=minGraph.subgraph(vpred=(id, attr) => attr._1==kmax)
+        // println(kmax)
+        // println(minGraph.vertices.filter(v=>{v._2._1==kmax}).count())
+        // println(pruned.vertices.count())
+        // println(pruned.edges.count())
+        pruned.edges.map(e=>{e.srcId+" "+e.dstId}).repartition(1).saveAsTextFile(args(3))
         val endTimeMillis = System.currentTimeMillis()
         val durationSeconds = (endTimeMillis - startTimeMillis) / 1000
         println("Total Execution Time : "+durationSeconds.toString() + "s")
