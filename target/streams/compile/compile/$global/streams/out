@@ -1,3 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mD:\Masters Lectures\Spark-kCore\src\main\scala\EdgeLocalTriangle.scala:61:9: ')' expected but 'val' found.[0m
-[0m[[0m[31merror[0m] [0m[0m        val endTimeMillis = System.currentTimeMillis()[0m
-[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\Masters Lectures\Spark-kCore\src\main\scala\KTrussDecom.scala:195:28: not found: value v[0m
+[0m[[0m[31merror[0m] [0m[0m    minGraph.edges.map(e=>{v._2._1.u+"\t"+v._2._1.v+"\t"+v._2._2}).repartition(1).saveAsTextFile(args(3)+"/edgeList_raw")[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

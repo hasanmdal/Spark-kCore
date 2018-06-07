@@ -1,1 +1,1 @@
-["EdgeLocalTriangle","EnumerateTriangle","KCore","KTruss"]
+["EdgeLocalTriangle","KCore","KTrussDecom","KTrussMR","KTrussPregel","NodeIteratorSpark"]

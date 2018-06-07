@@ -148,9 +148,9 @@ object KTrussMR{
 				con = false
 			}
 		}
-		edgemap.filter(e=>{e._2._1<=4}).take(10).foreach(println)
-		println(i)
-		println(c)
+		println("Solution Optimal : "+(!con))
+		println("Number of Iterations : "+i)
+		println("Maximal k-Truss Value : "+c)
 		val endTimeMillis = System.currentTimeMillis()
 		val durationSeconds = (endTimeMillis - startTimeMillis) / 1000
 		println("Total Execution Time : "+durationSeconds.toString() + "s")

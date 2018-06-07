@@ -158,6 +158,8 @@ object KTrussDecom{
     val modifiedGraph= getTriangle(graph)
     val eMap:Map[String,Map[String,Int]]=Map()
     val mEdges=modifiedGraph.edges
+    val edgeCount=mEdges.count()
+    val vertCount=modifiedGraph.vertices.count()
     val vertLineGraph:VertexRDD[(Vert,Int,Map[String,Map[String,Int]],Int)]= VertexRDD(mEdges.map(edge=>{(Vert(edge.srcId.toLong, edge.dstId.toLong) , edge.attr._1+2 , eMap , 100000)}).zipWithIndex.map(vertex=>{(vertex._2,vertex._1)}))
     val vertMapping: scala.collection.immutable.Map[Vert,Long]=vertLineGraph.map(vert=>{(vert._2._1 , vert._1)}).collectAsMap.toMap
     val broadCastLookupMap = sc.broadcast(vertMapping)
@@ -172,7 +174,7 @@ object KTrussDecom{
           {
             (Vert(edge.srcId.toLong , edge.dstId.toLong), Vert(edge.srcId.toLong , u.toLong), Vert(u.toLong , edge.dstId.toLong))
           }else{
-            (Vert(edge.srcId .toLong, edge.dstId.toLong) , Vert(edge.srcId.toLong , u.toLong), Vert(edge.dstId.toLong , u.toLong))
+            (Vert(edge.srcId.toLong, edge.dstId.toLong) , Vert(edge.srcId.toLong , u.toLong), Vert(edge.dstId.toLong , u.toLong))
           }
         }
       }
@@ -186,11 +188,25 @@ object KTrussDecom{
     val durationGraphSeconds = (endGraphTimeMillis - startTimeMillis) / 1000
     val minGraph = lineGraph.pregel(initialMsg,maxIter,EdgeDirection.Both)(vprogTruss,sendMsgTruss,mergeMsgTruss)
     val ktmax=minGraph.vertices.map(v=>{v._2._2}).max
+    val filteredEdge=minGraph.vertices.filter(v=>{v._2._2==ktmax})
+    val filteredEdgesCount=filteredEdge.count()
+    val filteredVertexCount=filteredEdge.flatMap(v=>{List(v._2._1.u,v._2._1.v)}).distinct.count()
+    minGraph.edges.map(e=>{e.srcId+"\t"+e.dstId}).repartition(1).saveAsTextFile(args(3)+"/edgeList")
+    minGraph.vertices.map(v=>{v._2._1.u+"\t"+v._2._1.v+"\t"+v._2._2}).repartition(1).saveAsTextFile(args(3)+"/edgeList_raw")
+    minGraph.vertices.map(v=>{v._1+"\t"+v._2._2}).repartition(1).saveAsTextFile(args(3)+"/mapping")
+
     val endTimeMillis = System.currentTimeMillis()
     val durationSeconds = (endTimeMillis - startTimeMillis) / 1000
+
     println("Maximal k-Truss Value : "+ktmax)
     println("Line Graph Construction Time : "+durationGraphSeconds.toString() + "s")
     println("Total Execution Time : "+durationSeconds.toString() + "s")
+    println("Total Edges Initial : "+edgeCount)
+    println("Total Vertices Initial :"+vertCount)
+    println("Filtered Edge Count :"+filteredEdgesCount)
+    println("Filtered Vertex Count :"+filteredVertexCount)
+    println("Edge prunning Percentage :"+(filteredEdgesCount*100.0)/edgeCount)
+    println("Vertex prunning Percentage :"+(filteredVertexCount*100.0)/vertCount)
     sc.stop()
   }
 }

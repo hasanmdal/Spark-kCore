@@ -175,6 +175,7 @@ object KTrussPregel{
     val endGraphTimeMillis = System.currentTimeMillis()
     val durationGraphSeconds = (endGraphTimeMillis - startTimeMillis) / 1000
     val minGraph = lineGraph.pregel(initialMsg,maxIter,EdgeDirection.Both)(vprogTruss,sendMsgTruss,mergeMsgTruss)
+    // val minGraph = lineGraph
     val ktmax=minGraph.vertices.map(v=>{v._2._2}).max
     val endTimeMillis = System.currentTimeMillis()
     val durationSeconds = (endTimeMillis - startTimeMillis) / 1000

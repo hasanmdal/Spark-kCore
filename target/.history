@@ -24,3 +24,49 @@ package
 show discoveredMainClasses
 package
 exit
+package
+console
+1==0
+0==1
+0 =1
+a=0
+val a =0
+console
+package
+./bin/spark-submit --class "EdgeLocalTriangle" --executor-memory 14G --executor-cores 4 --driver-memory 14G --master spark://in-csci-hd01.cs.iupui.edu:7077 /home/amandal/kcore_2.10-1.0.jar hdfs://in-csci-hd07.cs.iupui.edu:8020/home/amandal/graphsets/sample_graph.txt 24 hdfs://in-csci-hd07.cs.iupui.edu:8020/home/amandal/output/ktruss/sample_graph/
+cls
+clear
+package
+pckage
+package
+exit
+package
+exit
+package
+console
+package
+console
+package
+console
+package
+console
+package
+console
+package
+scala
+console
+package
+exit
+package
+show discoveredMainClasses
+package
+exit
+package
+show discoveredMainClasses
+package
+exit
+package
+show discoveredMainClasses
+package
+packgae
+package
